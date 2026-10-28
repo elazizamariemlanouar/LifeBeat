@@ -1,0 +1,81 @@
+
+# ==============================
+# Secrets and environment files
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/serviceAccountKey.json
+**/service-account*.json
+**/*service-account*.json
+**/*.pem
+**/*.key
+
+# ==============================
+# Python backend
+# ==============================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# ==============================
+# Flutter and Dart
+# ==============================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ==============================
+# Android generated files
+# ==============================
+**/.cxx/
+**/android/local.properties
+**/android/.gradle/
+**/android/app/build/
+**/android/captures/
+
+
+# ==============================
+# Generated platform files
+# ==============================
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# ==============================
+# Editors and operating systems
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+# Flutter performance profiling output
+AppMobile/flutter_jank_metrics_*.json
+# Exclude local project documents
+/Cahier des charges LifeBeat.pdf
+
+# Exclude Flutter performance profiling output
+/AppMobile/flutter_jank_metrics_*.json
