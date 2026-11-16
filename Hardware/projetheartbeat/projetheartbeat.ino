@@ -28,11 +28,11 @@ float spO2 = 0.0;
 const long MIN_IR_VALUE = 5000;
 
 // Firebase
-Firebase fb("https://lifebeat-ee7aa-default-rtdb.europe-west1.firebasedatabase.app/", "AIzaSyAmuZi5czBX3U-WeuH5eeIz6inh4Sxixc4");
+Firebase fb("YOUR_FIREBASE_DATABASE_URL", "YOUR_FIREBASE_API_KEY");
 
 // Wi-Fi
-const char* ssid = "houssem soudana";
-const char* password = "M47AE7JUM7KRH";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 void setup() {
   Serial.begin(9600);
